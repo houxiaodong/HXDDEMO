@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.TextView;
 
 import com.sccin.bjexpert.hxddemo.Adapter.SimpleAdapter;
 
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView mRecyclerView;
     private List<String> mDatas;
     private SimpleAdapter mAdapter;
+    private TextView mTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
