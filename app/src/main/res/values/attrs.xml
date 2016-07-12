@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="hxdicon" format="reference"></attr>
+    <attr name="hxdcolor" format="color"></attr>
+    <attr name="hxdtext" format="string"></attr>
+    <attr name="hxdtextsize" format="dimension"></attr>
+    <declare-styleable name="ChangeColorIconWithtext">
+        <attr name="hxdicon" ></attr>
+        <attr name="hxdcolor" ></attr>
+        <attr name="hxdtext"></attr>
+        <attr name="hxdtextsize" ></attr>
+    </declare-styleable>
+</resources>
